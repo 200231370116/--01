@@ -7,16 +7,19 @@ sky:
     username: root
     password: 123456
 
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    access-key-id: "AccessKey Secret"  # 使用引号包裹含空格的值
+    access-key-secret: xGVaQNNDGrSVJMTFcsITugZCcIhn5t
+    bucket-name: sky-itcast
 
-    alioss:
-        endpoint: oss-cn-beijing.aliyuncs.com
-        access-key-id: AccessKey Secret
-        access-key-secret: xGVaQNNDGrSVJMTFcsITugZCcIhn5t
-        bucket-name: sky-itcast
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+    database: 0
 
-    redis:
-      host: localhost
-      port: 6379
-      password: 123456
-      database: 0
-
+  # 关键修复：添加冒号和空格，并正确缩进
+  wechat:
+    appid: wx1432a7f15d431491
+    secret: 57f1fa5a641dd0eb9208e94bb5b96428
